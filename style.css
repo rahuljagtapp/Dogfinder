@@ -1,0 +1,121 @@
+.gradient-background {
+    display: grid;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 100% 100%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  .iphone{
+    box-sizing: border-box;
+    padding-top: 10px;
+    grid-column-start: 7;
+    grid-row: 1;
+   
+  }
+  .dowload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .features {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .features .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .test{
+    padding: 50px;
+    display: grid;
+  }
+  .text p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+  }
+  .dog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .dog img{
+    height: 100px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .company{
+    display: flex;
+    gap: 2px;
+    height: 30px;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .dogname{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .pricing{
+    margin:100px;
+
+  }
+  .contentt{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .butt {
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: end; */
+    justify-content: right;
+    flex-direction: column;
+    gap: 30px;
+  }
+.heading{
+  font-size: 20px;
+  font-weight: bold;
+}
+.butt button{
+  width: 200px;
+}
